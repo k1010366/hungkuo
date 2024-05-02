@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>宏國地產事業</title>
+  <!-- 引入 Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css'>
+  <!-- 自訂 CSS -->
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css'><link rel="stylesheet" href="styles/timelinestyle.css">
+	
+  <!-- 引入 Bootstrap JavaScript 套件（包含 Popper.js）-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+</head>
+ <!-- 滑上顯示選單 -->
+<script>
+  $(document).ready(function(){
+    $('.nav-item.dropdown').hover(function(){
+      $(this).addClass('show');
+      $(this).find('.dropdown-menu').addClass('show');
+    }, function(){
+      $(this).removeClass('show');
+      $(this).find('.dropdown-menu').removeClass('show');
+    });
+  });
+</script>
+<body>
+
+<!-- 導覽列 -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top mt-0">
+  <div class="container">
+    <a class="navbar-brand" href="#">宏國地產事業</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+	  <!-- 滑上顯示選單 -->
+				<li class="nav-item dropdown">
+		  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			旗下公司
+		  </a>
+		  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+			<div class="d-flex flex-wrap">
+			  <a class="dropdown-item" href="#fuhui">福滙</a>
+			  <a class="dropdown-item" href="#fonghuei">豐滙</a>
+			  <a class="dropdown-item" href="#yuesheng">岳昇</a>
+			  <a class="dropdown-item" href="#hongcyuan">宏全</a>
+			  <a class="dropdown-item" href="#wansihsing">萬賜興</a>
+			  <a class="dropdown-item" href="#hongshan">宏善</a>
+			  <a class="dropdown-item" href="#bosheng">柏陞</a>
+			  <a class="dropdown-item" href="#lianfa">聯發</a>
+			</div>
+		  </div>
+		</li>
+
+
+
+
+		
+		
+        <li class="nav-item">
+          <a class="nav-link" href="#spirit">核心精神</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#bigevent">大事記</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#aboutus">關於我們</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">加入我們</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- 主要內容 -->
+<div class="container-fluid mt-0 px-0">
+    <!-- 各團隊介紹 -->
+	<div class="container-fluid mt-0 mb-0" >
+	<!-- 第一層左半邊圖片，右半邊介紹 -->
+	  <div class="row" id="fuhui">
+		<div class="col-md-6 mb-0 p-0">
+		  <img src="asset/photo1.jpg" class="img-fluid" alt="圖片1" >
+		</div>
+			<div class="col-md-6 p-0 d-flex align-items-center justify-content-center">
+			  <div class="text-center">
+				<h2>福滙</h2>
+				<p>這是介紹的內容。</p>
+			  </div>
+			</div>
+	  </div>
+	  <!-- 第二層左半邊介紹，右半邊圖片 -->
+	  <div class="row mt-0" id="fonghuei">
+		<div class="col-md-6 p-0 d-flex align-items-center justify-content-center">
+			  <div class="text-center">
+				<h2>豐滙</h2>
+				<p>這是介紹的內容。</p>
+			  </div>
+			</div>
+		<div class="col-md-6 p-0">
+		  <img src="asset/photo2.jpg" class="img-fluid" alt="圖片2">
+		</div>
+	  </div>
+	  <!-- 第三層左半邊圖片，右半邊介紹 -->
+	   <div class="row" id="yuesheng">
+		<div class="col-md-6 mb-0 p-0" >
+		  <img src="asset/photo1.jpg" class="img-fluid" alt="圖片1">
+		</div>
+		<div class="col-md-6 p-0 d-flex align-items-center justify-content-center">
+			  <div class="text-center">
+				<h2>岳昇</h2>
+				<p>這是介紹的內容。</p>
+			  </div>
+			</div>
+	  </div>
+	  <!-- 第四層左半邊介紹，右半邊圖片 -->
+	  <div class="row mt-0" id="hongcyuan">
+		<div class="col-md-6 p-0 d-flex align-items-center justify-content-center">
+			  <div class="text-center">
+				<h2>宏全</h2>
+				<p>這是介紹的內容。</p>
+			  </div>
+			</div>
+		<div class="col-md-6 p-0">
+		  <img src="asset/photo2.jpg" class="img-fluid" alt="圖片2">
+		</div>
+	  </div>
+	  <!-- 第五層左半邊圖片，右半邊介紹 -->
+	   <div class="row" id="wansihsing">
+		<div class="col-md-6 mb-0 p-0">
+		  <img src="asset/photo1.jpg" class="img-fluid" alt="圖片1">
+		</div>
+		<div class="col-md-6 p-0 d-flex align-items-center justify-content-center">
+			  <div class="text-center">
+				<h2>萬賜興</h2>
+				<p>這是介紹的內容。</p>
+			  </div>
+			</div>
+	  </div>
+	  <!-- 第六層左半邊介紹，右半邊圖片 -->
+	  <div class="row mt-0" id="hongshan">
+		<div class="col-md-6 p-0 d-flex align-items-center justify-content-center">
+			  <div class="text-center">
+				<h2>宏善</h2>
+				<p>這是介紹的內容。</p>
+			  </div>
+			</div>
+		<div class="col-md-6 p-0">
+		  <img src="asset/photo2.jpg" class="img-fluid" alt="圖片2">
+		</div>
+	  </div>
+	   <!-- 第七層左半邊圖片，右半邊介紹 -->
+	   <div class="row" id="bosheng">
+		<div class="col-md-6 mb-0 p-0">
+		  <img src="asset/photo1.jpg" class="img-fluid" alt="圖片1">
+		</div>
+		<div class="col-md-6 p-0 d-flex align-items-center justify-content-center">
+			  <div class="text-center">
+				<h2>柏昇</h2>
+				<p>這是介紹的內容。</p>
+			  </div>
+			</div>
+	  </div>
+	  <!-- 第八層左半邊介紹，右半邊圖片 -->
+	  <div class="row mt-0" id="lianfa">
+		<div class="col-md-6 p-0 d-flex align-items-center justify-content-center">
+			  <div class="text-center">
+				<h2>聯發</h2>
+				<p>這是介紹的內容。</p>
+			  </div>
+			</div>
+		<div class="col-md-6 p-0" >
+		  <img src="asset/photo2.jpg" class="img-fluid" alt="圖片2">
+		</div>
+	  </div>
+	</div>
+	
+	 <!-- 核心精神 -->
+	<div class="container-fluid mt-0 px-0" id="spirit">
+	  <div class="col-md-12 p-0 d-flex align-items-center justify-content-center" style="background-image: url('asset/photo5.jpg'); background-size: cover;width: 100%;height: 70vh;filter: blur(0px);">
+		<div class="text-center" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);color: #333;">
+		  <h1>核心精神</h1>
+		  <h2>忠誠</h2>
+		  <h4>誠實互信，忠於工作，對自己的工作負責，願意為達成組織目標而努力。</h4>
+		  <h2>精勤</h2>
+		  <h4>為達目標願意主動找出自己的學習需求，持續尋找及善用各種學習發展機會，進而提升工作效率，並願意因此承擔額外責任。</h4>
+		  <h2>存厚</h2>
+		  <h4>心存善念，待人寬厚不刻薄，同時能確實完成工作職責及要求。</h4>
+		  <h2>率真</h2>
+		  <h4>為人坦率，體貼他人，在處事上不勾心鬥角，能勇於承擔自己的錯誤或失敗，不歸咎他人並努力改善 </h4>
+		</div>
+	  </div>
+	</div>
+
+	<div class="container-fluid mt-0 px-0" id="bigevent">
+		<!-- 大事記 -->
+		<section class="timeline-carousel">
+		   <div class="container">
+			  <div class="row">
+				 <div class="col-8 offset-2 text-center mb-5">
+					<h1>宏國地產事業里程碑</h1>
+					<iframe width="853" height="480" src="https://www.youtube.com/embed/wqmjlLsWETA" title="宏國歷史發展111.07.18" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					<p><a class="text-white" target="_blank" href="https://www.youtube.com/watch?v=wqmjlLsWETA">一起見證宏國的歷史</a></p>
+				 </div>
+			  </div>
+		   </div>
+		   <div class="timeline-carousel__item-wrapper" data-js="timeline-carousel">
+			  
+			  <!--Timeline item-->
+			  <div class="timeline-carousel__item">
+				 <div class="timeline-carousel__image">
+					<div class="media-wrapper media-wrapper--overlay" style="background: url('https://via.placeholder.com/550x320/171717/cccccc?text=550x320') center center; background-size:cover;"></div>
+				 </div>
+				 <div class="timeline-carousel__item-inner">
+					<span class="year">1964</span>
+					<span class="month">宏國建設成立</span>
+					<p>宏國關係事業最早是從一間修補機車、腳踏車的輪胎店起家，其創辦人林堉琪後來轉為經營米廠，與佃農、地主建立了良好關係，使他日後大量收購淡水、三重一帶土地打下基礎。林堉琪後來大量購入土地，並聘請曾任政府機構人員如前台北縣縣長蘇清波機要秘書杜明福、前財政部國有財產局副局長等等，林家事業在林堉琪的領導下逐漸稍有規模。1964年，林堉琪與兄弟林堉璘與林榮三共同創辦宏國建設，成為日後宏國關係事業的核心企業</p>
+					<a href="#" class="read-more">超連結至外部Read more</a>
+				 </div>
+			  </div>
+			  <!--/Timeline item-->
+			  
+			  <!--Timeline item-->
+			  <div class="timeline-carousel__item">
+				 <div class="timeline-carousel__image">
+					<div class="media-wrapper media-wrapper--overlay" style="background: url('https://via.placeholder.com/550x320/171717/cccccc?text=550x320') center center; background-size:cover;"></div>
+				 </div>
+				 <div class="timeline-carousel__item-inner">
+					<span class="year">2003</span>
+					<span class="month">大事記名稱</span>
+					<p>事件介紹</p>
+					<a href="#" class="read-more">超連結至外部Read more</a>
+				 </div>
+			  </div>
+			  <!--/Timeline item-->
+			  
+			  <!--Timeline item-->
+			  <div class="timeline-carousel__item">
+				 <div class="timeline-carousel__image">
+					<div class="media-wrapper media-wrapper--overlay" style="background: url('https://via.placeholder.com/550x320/171717/cccccc?text=550x320') center center; background-size:cover;"></div>
+				 </div>
+				 <div class="timeline-carousel__item-inner">
+					<span class="year">2003</span>
+					<span class="month">大事記名稱</span>
+					<p>事件介紹 </p>
+					<a href="#" class="read-more">超連結至外部Read more</a>
+				 </div>
+			  </div>
+			  <!--/Timeline item-->
+			  
+			  <!--Timeline item-->
+			  <div class="timeline-carousel__item">
+				 <div class="timeline-carousel__image">
+					<div class="media-wrapper media-wrapper--overlay" style="background: url('https://via.placeholder.com/550x320/171717/cccccc?text=550x320') center center; background-size:cover;"></div>
+				 </div>
+				 <div class="timeline-carousel__item-inner">
+					<span class="year">2003</span>
+					<span class="month">大事記名稱</span>
+					<p>事件介紹 </p>
+					<a href="#" class="read-more">超連結至外部Read more</a>
+				 </div>
+			  </div>
+			  <!--/Timeline item-->
+			  
+			  <!--Timeline item-->
+			  <div class="timeline-carousel__item">
+				 <div class="timeline-carousel__image">
+					<div class="media-wrapper media-wrapper--overlay" style="background: url('https://via.placeholder.com/550x320/171717/cccccc?text=550x320') center center; background-size:cover;"></div>
+				 </div>
+				 <div class="timeline-carousel__item-inner">
+					<span class="year">2003</span>
+					<span class="month">大事記名稱</span>
+					<p>事件介紹 </p>
+					<a href="#" class="read-more">超連結至外部Read more</a>
+				 </div>
+			  </div>
+			  <!--/Timeline item-->
+			  
+			  <!--Timeline item-->
+			  <div class="timeline-carousel__item">
+				 <div class="timeline-carousel__image">
+					<div class="media-wrapper media-wrapper--overlay" style="background: url('https://via.placeholder.com/550x320/171717/cccccc?text=550x320') center center; background-size:cover;"></div>
+				 </div>
+				 <div class="timeline-carousel__item-inner">
+					<span class="year">2003</span>
+					<span class="month">大事記名稱</span>
+					<p>事件介紹 </p>
+					<a href="#" class="read-more">超連結至外部Read more</a>
+				 </div>
+			  </div>
+			  <!--/Timeline item-->
+			  
+			  <!--Timeline item-->
+			  <div class="timeline-carousel__item">
+				 <div class="timeline-carousel__image">
+					<div class="media-wrapper media-wrapper--overlay" style="background: url('https://via.placeholder.com/550x320/171717/cccccc?text=550x320') center center; background-size:cover;"></div>
+				 </div>
+				 <div class="timeline-carousel__item-inner">
+					<span class="year">2003</span>
+					<span class="month">大事記名稱</span>
+					<p>事件介紹 </p>
+					<a href="#" class="read-more">超連結至外部Read more</a>
+				 </div>
+			  </div>
+			  <!--/Timeline item-->
+			  
+			  <!--Timeline item-->
+			  <div class="timeline-carousel__item">
+				 <div class="timeline-carousel__image">
+					<div class="media-wrapper media-wrapper--overlay" style="background: url('https://via.placeholder.com/550x320/171717/cccccc?text=550x320') center center; background-size:cover;"></div>
+				 </div>
+				 <div class="timeline-carousel__item-inner">
+					<span class="year">2003</span>
+					<span class="month">大事記名稱</span>
+					<p>事件介紹 </p>
+					<a href="#" class="read-more">超連結至外部Read more</a>
+				 </div>
+			  </div>
+			  <!--/Timeline item-->
+
+		   </div>
+				</section>
+		<!-- partial -->
+ 
+ </div>
+ 
+ 
+	
+
+
+
+
+
+
+  <!-- 關於我們 -->
+ <div class="container"  id="aboutus" >
+  <h2 class="mt-5 text-center">關於我們</h2>
+  <hr class="divider"> <!-- 添加分隔线 -->
+  <div class="center-content">
+    <p class="lead">宏國關係事業
+由創辦人 林堉琪先生於1964年創立，並於當年成立 「宏國建設」，興建各式房屋及社區，正式開始了宏國關係事業奠基於建築業的宏偉版圖。 
+
+宏國關係事業累積50年雄厚實力，經歷1997年本土金融風暴至今，逆境中突圍、脫胎換骨、百鍊成鋼，開創全新的商業經營模式，成為台灣最具穩健踏實的事業集團。 不斷的以「忠誠、精勤、存厚、率真」的經營理念創造關係事業的亮眼成績。 
+
+宏國關係事業體以多角化經營的概念，橫跨多重事業體，認真投入飯店遊憩事業、不動產開發事業、物業管理事業、健康飲食事業 、文化教育事業、社會福利事業等產業經營。除了給予客戶最完整的優質服務，亦提供關係事業內部員工最完整的經歷與學習機會。 <br>
+※建設開發事業 <br>
+為宏國關係事業旗下之創始業體。超過半世紀來都致力於人們生活環境品質的提升，在不同的時代做出不同的努力。從50多年前開始蓋堅固美觀的房子，到30多年前開始打造整體社區的環境，至近年來的高級住宅及國際級商辦開發，更向綠建築的發展。如今，宏國開發已成為台灣少數擁有具規模性的地產資源、卻最賦創意及靈活彈性的不動產開發團隊。</p>
+  </div>
+</div>
+</div>
+
+
+
+
+
+<!-- 底部 -->
+<footer class="footer-section mt-auto py-3 bg-dark text-light">
+<div class="container text-center">
+<h1>Building warm homes for everyone is our mission</h1>
+<h2>宏國建設為每個人打造一個溫暖的家</h2>
+<hr>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14457.570600552139!2d121.5495966!3d25.0546775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abe89616bd53%3A0x9d5017e1d56a9036!2z5a6P5ZyL5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1714617865108!5m2!1szh-TW!2stw" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<hr> 
+<p class="a">宏國地產事業</P>
+<p class="a">10546台北市松山區敦化北路167號18樓A區</p>
+<p class="">T:02-27187788#208</p>
+<p class="">E:example@email.com</p>
+
+ </div>
+
+  <div class="container text-center ">
+  <hr class="a">
+    <span>版權所有 &copy; 2024 宏國地產事業</span>
+  </div>
+</footer>
+
+
+
+
+
+<!--引入timeline相關js-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js'></script><script  src="javascript/timelinescript.js"></script>
+</body>
+</html>

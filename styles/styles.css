@@ -1,0 +1,57 @@
+/* styles.css */
+
+body {
+  padding-top: 56px; /* 導覽列高度 */
+}
+
+
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff; /* 導覽列連結文字顏色 */
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff; /* 導覽列品牌文字顏色 */
+}
+.horizontal-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-section h2 {
+    font-family: "Arial", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+	text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87
+  }
+  .footer-section h1 {
+    font-family: "Arial", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+	font-family:serif;
+	text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87
+  }
+  .footer-section hr {
+	border: none;
+	border-top: 2px solid 	#F9F900; /* 調整線條的粗細和顏色 */
+  }
+  .footer-section hr.a{
+	border: none;
+	border-top: 2px solid 	#6C6C6C; /* 調整線條的粗細和顏色 */
+  }
+  .footer-section p.a{
+	color:#FFE153;
+  }
+
+#aboutus {
+  padding-top: 10px; /* 調整此值以適應你的導航列高度 */
+}
+#bigevent {
+  padding-top: 1px; /* 調整此值以適應你的導航列高度 */
+}
+#spirit {
+  padding-top: 10px; /* 調整此值以適應你的導航列高度 */
+}
